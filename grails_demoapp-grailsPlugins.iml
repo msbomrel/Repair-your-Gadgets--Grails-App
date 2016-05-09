@@ -58,6 +58,7 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" scope="PROVIDED" name="groovy-2.4.6" level="application" />
     <orderEntry type="module-library" exported="">
       <library name="Grails User Library (grails_demoapp-grailsPlugins)">
         <CLASSES>
@@ -70,8 +71,6 @@
           <root url="jar://$USER_HOME$/apps/grails-2.5.0/dist/grails-plugin-converters-2.5.0.jar!/" />
           <root url="jar://$USER_HOME$/apps/grails-2.5.0/dist/grails-plugin-domain-class-2.5.0.jar!/" />
           <root url="jar://$USER_HOME$/apps/grails-2.5.0/dist/grails-plugin-mimetypes-2.5.0.jar!/" />
-          <root url="jar://$USER_HOME$/apps/grails-2.5.0/lib/org.codehaus.jsr166-mirror/jsr166y/jars/jsr166y-1.7.0.jar!/" />
-          <root url="jar://$USER_HOME$/apps/grails-2.5.0/lib/org.codehaus.gpars/gpars/jars/gpars-1.2.1.jar!/" />
           <root url="jar://$USER_HOME$/apps/grails-2.5.0/dist/grails-async-2.5.0.jar!/" />
           <root url="jar://$USER_HOME$/apps/grails-2.5.0/dist/grails-plugin-async-2.5.0.jar!/" />
           <root url="jar://$USER_HOME$/apps/grails-2.5.0/lib/commons-validator/commons-validator/jars/commons-validator-1.4.0.jar!/" />
@@ -164,13 +163,9 @@
           <root url="jar://$USER_HOME$/apps/grails-2.5.0/lib/org.springframework/spring-aspects/jars/spring-aspects-4.1.5.RELEASE.jar!/" />
           <root url="jar://$MAVEN_REPOSITORY$/org/liquibase/liquibase-core/2.0.5/liquibase-core-2.0.5.jar!/" />
           <root url="jar://$MAVEN_REPOSITORY$/org/grails/grails-datastore-test-support/1.0.2-grails-2.4/grails-datastore-test-support-1.0.2-grails-2.4.jar!/" />
-          <root url="jar://$USER_HOME$/apps/grails-2.5.0/lib/org.hamcrest/hamcrest-core/jars/hamcrest-core-1.3.jar!/" />
-          <root url="jar://$USER_HOME$/apps/grails-2.5.0/lib/junit/junit/jars/junit-4.12.jar!/" />
           <root url="jar://$MAVEN_REPOSITORY$/cglib/cglib-nodep/2.2.2/cglib-nodep-2.2.2.jar!/" />
           <root url="jar://$USER_HOME$/apps/grails-2.5.0/lib/org.spockframework/spock-core/jars/spock-core-1.0-groovy-2.4.jar!/" />
-          <root url="jar://$USER_HOME$/apps/grails-2.5.0/lib/org.fusesource.jansi/jansi/jars/jansi-1.11.jar!/" />
           <root url="jar://$USER_HOME$/apps/grails-2.5.0/lib/org.codehaus.gant/gant_groovy1.8/jars/gant_groovy1.8-1.9.6.jar!/" />
-          <root url="jar://$USER_HOME$/apps/grails-2.5.0/lib/jline/jline/jars/jline-2.12.jar!/" />
           <root url="jar://$USER_HOME$/apps/grails-2.5.0/lib/org.apache.ant/ant-launcher/jars/ant-launcher-1.8.4.jar!/" />
           <root url="jar://$USER_HOME$/apps/grails-2.5.0/lib/org.apache.ant/ant/jars/ant-1.8.4.jar!/" />
           <root url="jar://$USER_HOME$/apps/grails-2.5.0/dist/grails-project-api-2.5.0.jar!/" />
@@ -201,6 +196,7 @@
           <root url="jar://$USER_HOME$/apps/grails-2.5.0/lib/net.java.dev.jna/jna/jars/jna-4.0.0.jar!/" />
           <root url="jar://$USER_HOME$/apps/grails-2.5.0/lib/org.apache.ant/ant-junit/jars/ant-junit-1.8.4.jar!/" />
           <root url="jar://$USER_HOME$/apps/grails-2.5.0/lib/org.apache.ant/ant-trax/jars/ant-trax-1.7.1.jar!/" />
+          <root url="jar://$MAVEN_REPOSITORY$/mysql/mysql-connector-java/5.1.29/mysql-connector-java-5.1.29.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
