@@ -7,8 +7,8 @@ class Technician {
     String email
     String experience
     String jobSpecification
-    static hasMany = [services:Services]
-    static belongsTo = Services
+    static hasMany = [services:Service]
+    static belongsTo = Service
 
     static constraints = {
         name blank: false, nullable: false

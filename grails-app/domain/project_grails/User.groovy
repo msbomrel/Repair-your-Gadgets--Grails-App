@@ -4,17 +4,16 @@ class User {
 
     String name
     String address
-    String phone_no
-    String telephone_no
+    String contact_no
     String email
+    String password
 
     static hasMany = [enquiry: Enquiry]
 
     static constraints = {
         name blank:false
-
-        phone_no size : 10, unique : true
-        telephone_no size: 7, unique: true
+        contact_no size : 7..10, unique : true
         email email: true, blank: false
+        password password:true
     }
 }
