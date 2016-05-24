@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="DataSourceManagerImpl" format="xml" hash="3558893572">
-    <data-source source="LOCAL" name="MySQL - student@localhost" uuid="e4296c51-cabb-4257-a6a1-f50d86624224">
+  <component name="DataSourceManagerImpl" format="xml" hash="1904937487">
+    <data-source source="LOCAL" name="MySQL - student@localhost" uuid="cefaf64d-b008-439b-9a95-8902e6515897">
       <driver-ref>mysql</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
@@ -14,30 +14,6 @@
         <property name="characterSetResults" value="utf8" />
         <property name="yearIsDateType" value="false" />
       </driver-properties>
-    </data-source>
-    <data-source source="LOCAL" name="grails_demoapp dev" uuid="1a7d8db9-11e3-4854-9d5f-08ab25a69bbc">
-      <driver-ref>mysql</driver-ref>
-      <synchronize>true</synchronize>
-      <imported>true</imported>
-      <remarks>$PROJECT_DIR$/grails-app/conf/DataSource.groovy</remarks>
-      <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
-      <jdbc-url>jdbc:mysql://localhost/student?useUnicode=yes&amp;characterEncoding=UTF-8</jdbc-url>
-      <explain-plan-config>
-        <provider>com.intellij.database.plan.ExplainPlanProvider.NullExplainPlanProvider</provider>
-      </explain-plan-config>
-      <driver-properties>
-        <property name="autoReconnect" value="true" />
-        <property name="zeroDateTimeBehavior" value="convertToNull" />
-        <property name="tinyInt1isBit" value="false" />
-        <property name="characterEncoding" value="utf8" />
-        <property name="characterSetResults" value="utf8" />
-        <property name="yearIsDateType" value="false" />
-      </driver-properties>
-      <libraries>
-        <library>
-          <url>file://$MAVEN_REPOSITORY$/mysql/mysql-connector-java/5.1.29/mysql-connector-java-5.1.29.jar</url>
-        </library>
-      </libraries>
     </data-source>
   </component>
 </project>
