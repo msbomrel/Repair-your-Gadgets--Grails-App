@@ -6,4 +6,7 @@ class Service {
     static constraints = {
         type nullable: false, blank: false
     }
+//    String toString(){
+//        return type
+//    }
 }
