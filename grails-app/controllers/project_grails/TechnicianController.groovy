@@ -18,12 +18,11 @@ class TechnicianController {
             technician.addToServices(Service.findById(service))
         }
         println "{technician.services} = ${technician.services}"
-        if (technician.save(flush: true)){
+        if (technician.validate()){
+            technician.save(flush: true)
             render("Successfully saved")
         }else{
-            technician.errors.allErrors.each {
-                println it
-            }
+            render (view: "index", model:[tech:technician, ser: Service.findAll()])
         }
     }
 }
